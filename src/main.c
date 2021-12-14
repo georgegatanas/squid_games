@@ -6,7 +6,7 @@ int main()
 {
     int lives = 16;		/* George G */
     
-    printf("\n Welcome to the infamous Game 5 from the hit Netflix show “Squid Games”. You will be tasked with the challenge of crossing a bridge to safety, however the bridge is no ordinary platform. The bridge has two long rows, each consisting of 20 glass squares. In each column of the rows, one square is made of a weak glass that cannot hold the weight of one individual, while the other square can hold up to two individuals. The aim of the game is to make it past all 20 levels by choosing either the left or right square on each level. Since there were 16 contestants left in the show, you are granted 16 lives. You will have the option to play on “easy” (graphic) or “hard” (memory) mode. Good luck! \n");         /* George G */
+    printf("\n Welcome to the infamous Game 5 from the hit Netflix show “Squid Games”. You will be tasked with the challenge of crossing a bridge to safety, however the bridge is no ordinary platform. The bridge has two long rows, each consisting of 20 glass squares. In each column of the rows, one square is made of a weak glass that cannot hold the weight of one individual, while the other square can hold up to two individuals. The aim of the game is to make it past all 20 levels by choosing either the left or right square on each level. Since there were 16 contestants left in the show, you are granted 16 lives. You will have the option to play on “easy” (graphic) or “hard” (memory) mode. Good luck! \n");         /* George S */
     int levels = 20;		/* George G */
     int  platform[levels];		/* George G */
     
@@ -23,13 +23,13 @@ int main()
     }
 */
 
-    int progress = 0;		/* George S */
-    int difficulty;			/* George S */
+    int progress = 0;		/* George G */
+    int difficulty;			/* George G */
     
-    char row1[levels];
-    char row2[levels];
+    char row1[levels];         /* George G */
+    char row2[levels];          /* George G */
 
-    for (int i = 0; i < levels; i++)            /* George S */
+    for (int i = 0; i < levels; i++)            /* George G */
     {
         row1[i] = '?';
         row2[i] = '?';
@@ -47,14 +47,14 @@ int main()
             return 0;
         }
         
-        if (difficulty == 0)				/* George S */
+        if (difficulty == 0)				
         {
             printGame(levels, row1, row2);
         }
         
-        printf("\n Platform: %d ", progress);				/* George G */
-        printf("\n Lives Remaining: %d ", lives);				/* George G */
-        printf("\n Please select left or right (left = 0 and right = 1): ");	/* George S */
+        printf("\n Platform: %d ", progress);				
+        printf("\n Lives Remaining: %d ", lives);				
+        printf("\n Please select left or right (left = 0 and right = 1): ");	
         
         makeChoice(platform, &progress, &lives, row1, row2);
 
