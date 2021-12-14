@@ -26,8 +26,7 @@ Finally our main.c file. We begin this file by including <stdio.h>, “project.h
 If the first condition of the overarching if statement discussed in the previous paragraphs is not met (the player has zero lives) the code tells the user that the game is over, ends the program, and the player is eliminated from the Squid Game.
 
 
-
-
+# Working Code
 
 
 # Youtube Link
