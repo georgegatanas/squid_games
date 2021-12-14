@@ -12,7 +12,7 @@ Our project mimics Game 5 of the hit Netflix series “Squid Games”. In Game 5
 
 
 *_Code Description_*
-First we’ll discuss our project.c file. This file defines the function “printGame”. We write “void printGame(...)” because the function does not return a value. The function itself has the parameters of the integer “levels”, the pointer “row1”, and the pointer “row2”. The function uses a series of printf statements to print the gameboard. The first and the last for loop iterate i from 0 to levels (20 in this case) to print the characters within the “row1” and “row2” arrays (initiated at all “?” until changed by the game) and surrounded by “|” characters. The second loop prints a divider between the rows.
+First we’ll discuss our project.c file. This file defines the function “printGame”. We write “void printGame(...)” because the function does not return a value. The function itself has the parameters of the integer “levels”, the pointer “row1”, and the pointer “row2”. The function uses a series of printf statements to print the gameboard. The first and the last for loop iterate i from 0 to levels (20 in this case) to print the characters within the “row1” and “row2” arrays (initiated at all “?” until changed by the game) and surround them with “|” characters. The second for loop prints a divider between the rows.
 
 We declare the function “project.c” in our project.h file.
 
