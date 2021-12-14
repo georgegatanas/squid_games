@@ -1,4 +1,4 @@
-void printGame(int levels, char *row1, char *row2)          /* George S */
+void printGame(int levels, char *row1, char *row2)          /* George G */
 {
     printf("\n0:  |");                         
     for(int i = 0; i < levels; i++)
