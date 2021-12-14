@@ -27,7 +27,6 @@ If the first condition of the overarching if statement discussed in the previous
 
 
 
-<img width="574" alt="Screen Shot 2021-12-10 at 2 22 14 AM" src="https://user-images.githubusercontent.com/90291821/146097149-8fe85e09-e148-47ee-b823-6d2e5c06a10b.png">
 
 
 
