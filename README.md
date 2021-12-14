@@ -2,7 +2,7 @@
 Final C Project for CS102 Section C Fall 2021
 
 
-*Introduction*
+*_Introduction_*
 Our project mimics Game 5 of the hit Netflix series “Squid Games”. In Game 5, the contestants were presented with two separate paths, each containing 20 visually identical glass panels. Each contestant stepped up and chose either left or right. Upon jumping to the correct panel, the contestant moved one panel closer to the winners’ safety platform. On the other hand, if the contestant chose the wrong panel, they fell to their death. To mimic the game, we generated a set of platforms for the user to attempt to cross, similar to the show. The user will have 16 lives to try to cross 20 sets of platforms. In each set, there is one “correct” platform and one “wrong” platform. If they choose the “correct” platform, they will be able to move on to the next level. If they choose incorrectly, the user will “fall to their death” and start from the beginning. The user will have the choice to either play on “easy” mode (provides a bird’s eye view of the platforms) or “hard” mode (based on memory). The odds of making it past each level without losing a life are 1/(2^20), or 9.5367431640625 x 10−7. However, the platform layout will not change until the game is reset. Therefore, by remembering the pattern on “hard” mode, or looking back at the previous choices in “easy” mode, the player may be able to get to the other side, surviving this round of the Squid Games. Remember, no two games are the same. Once the game resets, the “correct” and “wrong” platforms are randomized to provide the user with a greater challenge. Can you beat our game with the most lives remaining?
 
 
@@ -11,7 +11,7 @@ Our project mimics Game 5 of the hit Netflix series “Squid Games”. In Game 5
 
 
 
-*Code Description*
+*_Code Description_*
 First we’ll discuss our project.c file. This file defines the function “printGame”. We write “void printGame(...)” because the function does not return a value. The function itself has the parameters of the integer “levels”, the pointer “row1”, and the pointer “row2”. The function uses a series of printf statements to print the gameboard. The first and the last for loop iterate i from 0 to levels (20 in this case) to print the characters within the “row1” and “row2” arrays (initiated at all “?” until changed by the game) and surrounded by “|” characters. The second loop prints a divider between the rows.
 
 We declare the function “project.c” in our project.h file.
@@ -28,4 +28,4 @@ If the first condition of the overarching if statement discussed in the previous
 
 
 
-*youtube link*
+*_Youtube Link_*
