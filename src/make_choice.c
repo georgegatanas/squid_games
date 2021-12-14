@@ -1,9 +1,9 @@
-void makeChoice(int *platform, int *progress, int *lives, char *row1, char *row2)
+void makeChoice(int *platform, int *progress, int *lives, char *row1, char *row2)       /* George G */
 {    
-    int response;		/* George G */
-    scanf("%d", & response);					/* George G */
+    int response;		
+    scanf("%d", & response);					
     
-    if (response == platform[*progress])			/* George G */
+    if (response == platform[*progress])			
     {
         printf("\n You Pass \n");
         
@@ -22,7 +22,7 @@ void makeChoice(int *platform, int *progress, int *lives, char *row1, char *row2
         (*progress)++;
     }
 
-    else			                      	/* George G */	
+    else			                      		
     {
         printf("\n You Fall \n");
         (*lives)--;
